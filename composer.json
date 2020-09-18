@@ -1,0 +1,12 @@
+{
+  "name": "ads2/reporting-api",
+  "description": "Tools for communicating with AdsSquared's reporting server",
+  "autoload": {
+    "psr-4": {
+      "AdsSquared\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7",
+  }
+}
