@@ -2,7 +2,25 @@
 
 The AdsSquared Reporting API allows you to retrieve various reports for your AdsSquared account.
 
+## Installation
+```
+composer require ads2/reporting-api
+```
+
 ## Usage
+To load reports, use the Reporter facade. Provide each method with the required arguments and a report will be created and a jobID returned to the object.
+
+Once a jobID is available, you can fetch the report with the fetchReport() method. Successfully fetched reports are available on the report's CSV property.
+
+Available Reports:
+* Device
+* DeviceType
+* Source
+* SourceType
+* DeviceHourly
+* SourceHourly
+* Tags
+
 
 ```
 use AdsSquared\Facade\Reporter;
