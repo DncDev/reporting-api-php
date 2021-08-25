@@ -18,6 +18,7 @@ Available Reports:
 * Source
 * SourceType
 * DeviceHourly
+* DeviceTypeHourly
 * SourceHourly
 * Tags
 
