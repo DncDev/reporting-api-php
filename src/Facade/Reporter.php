@@ -145,4 +145,8 @@ class Reporter {
 
         return $report;
     }
+    
+    public static function PartnerTQ($username, $apiKey, $startDate, $endDate, $timeout = 3000) {
+        $report = new DailyReport('partnertq', $username, $apiKey, $startDate, $endDate, '', $timeout);
+    }
 }
